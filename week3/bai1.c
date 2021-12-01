@@ -19,7 +19,7 @@ student addstudent(int id, char name[],int grade )
    strcpy(node->name,name);
    if(head== NULL)
    {
-       head=node;
+       head=node;node->next=NULL;
    } else {node->next=head; head= node;}
    return head; 
 }
@@ -99,7 +99,7 @@ while(a!=6)
           break;
       case 5: scanf("%d %d",&id,&grade);changegrade(id,grade);
           break;
-      case 6: out;
+      case 6: out();
           break;
       }
 } 
