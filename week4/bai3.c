@@ -1,4 +1,4 @@
-//Write a program that reads any postfix expression involving multiplication and addition of interger.
+
 #include<stdio.h>
 int stack[100] ;
 char a[100],b[100];
